@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arpitbansal.test_1.MainActivity">
+
+    <TextView
+        android:id="@+id/li_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="Light Intensity"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/accel_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/li_id"
+        android:text="Accelerometer"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/temp_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/accel_id"
+        android:text="Temperature"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/gyro_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/temp_id"
+        android:text="Gyroscope"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/socl_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Graph_Plot" />
+</RelativeLayout>
